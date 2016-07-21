@@ -15,6 +15,7 @@ for iter = 1:num_iters
     %
     % Hint: While debugging, it can be useful to print out the values
     %       of the cost function (computeCostMulti) and gradient here.
+<<<<<<< HEAD
     % 
 
     tmp1 = 0;
@@ -29,6 +30,19 @@ for iter = 1:num_iters
     %theta(2,1) = tmp2;
     theta(1) = theta(1) - tmp1*(alpha/m);
     theta(2) = theta(2) - tmp2*(alpha/m);
+=======
+    %
+
+
+
+
+
+
+
+
+
+
+>>>>>>> fd692cee753aa970032a587eab74fdea5d3cc230
 
     % ============================================================
 
